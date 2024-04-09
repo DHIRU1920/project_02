@@ -18,7 +18,7 @@ let playGame = true;
 
 if (playGame) {
   submit.addEventListener('click', function (e) {
-    e.preventDefault();
+    e.preventDefault();  
     const guess = parseInt(userInput.value);
     console.log(guess);
     validateGuess(guess);
